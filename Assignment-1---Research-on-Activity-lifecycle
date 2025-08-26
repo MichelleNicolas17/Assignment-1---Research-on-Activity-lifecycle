@@ -21,11 +21,10 @@ static void onStop() {
     super.onStop()
     println("onStop()")
 }
- }
-  }
 
-override fun onDestroy() {
+static void onDestroy() {
     super.onDestroy()
     println("onDestroy()")
 }
-}
+ }
+  }
