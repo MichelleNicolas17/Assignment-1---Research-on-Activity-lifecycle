@@ -1,0 +1,31 @@
+Public class Myclass {
+
+   public static void main(String[] args) {
+
+static void onStart() {
+    super.onStart()
+    println("onStart()")
+}
+
+static void onResume() {
+    super.onResume()
+    println("onResume()")
+}
+
+static void onPause() {
+    super.onPause()
+    println("onPause()")
+}
+
+static void onStop() {
+    super.onStop()
+    println("onStop()")
+}
+ }
+  }
+
+override fun onDestroy() {
+    super.onDestroy()
+    println("onDestroy()")
+}
+}
